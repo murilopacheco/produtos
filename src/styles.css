@@ -1,0 +1,72 @@
+.app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+.lista-produto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .item-produto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-produtom h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .item-produto p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .product-filter {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .botao {
+    margin-top: 20px ;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s;
+
+  }
+
+  .botao:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  .botao:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }

@@ -1,0 +1,33 @@
+.homeContainer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homeContainer h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .homeContainer div {
+    margin-top: 20px;
+  }
+  
+  .homeContainer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .homeContainer a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
